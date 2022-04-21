@@ -1,0 +1,24 @@
+.image1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  #image1 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -60px;
+  }
+  #marvelLogo { 
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  #marvelLogo img {
+    width: 32%;  
+    height: auto;
+    margin-top: -170px;
+    background-color: transparent;
+  }

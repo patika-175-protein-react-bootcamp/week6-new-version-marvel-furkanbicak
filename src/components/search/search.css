@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.search{
+    margin-top: 50px;
+    margin-left: 100px;
+} 
+label{
+    display: block;
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.costum-input{
+    display: block;
+    outline: solid;
+    border: 1px solid gray;
+    color: #f2f2f2;
+    width: 50%;
+    border: 10;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    font-size: 14px;
+}
+.search_dropdown{
+    cursor: pointer;
+    background-color: #434343;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width: 100%;
+    height: 4vh;
+    color: #fff;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+button a {
+    color: inherit;
+    text-decoration: inherit;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
